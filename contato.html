@@ -52,11 +52,28 @@
             </p>
             <p>
                 <label for="numero">Numero:</label>
-                <input type="number" id="numero">
+                <input type="number" id="numero" placeholder="seu numero" maxlength="10">
             </p>
             <p>
                 <label for="bairro">Bairro:</label>
-                <input type="text" id="bairro">
+                <input type="text" id="bairro" placeholder="insira seu bairro" maxlength="30">
+            </p>
+            <p>
+                <label for="estado">Estado:</label>
+                <select id="estado">
+                    <optgroup label="região sudeste">
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">Sao Paulo</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="ES">Espirito Santo</option>
+                        <option value=""></option>
+                    </optgroup>
+                    <optgroup label="região sul">
+                        <option value="PR">Parana</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                    </optgroup>
+                </select>
             </p>
         </fieldset>
     </form>
